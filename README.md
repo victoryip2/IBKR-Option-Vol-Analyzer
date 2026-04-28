@@ -51,11 +51,5 @@ Connecting to Interactive Brokers
 Troubleshooting
 - If you see path/permission errors when running commands, wrap paths that contain spaces in double quotes (examples above use quoted paths).
 - If tkinter import fails on macOS, install/update Tcl/Tk (e.g., Homebrew tcl-tk) and ensure your Python was built/linked with it.
-- If you don't want to use the analyzer's local venv, you can use your workspace venv at:
-  `/Users/victor/Documents/All Projects/TQQQ/.venv` — just activate that instead.
 
-Want me to:
-- Trim `requirements.txt` to a minimal set for just this script? (recommended)
-- Add a small launch script that runs the analyzer with the correct quoted paths?
-- Add a mock mode so the GUI can be tested without connecting to IB?
 
